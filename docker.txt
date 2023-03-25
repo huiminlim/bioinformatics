@@ -1,0 +1,2 @@
+sudo docker build -t bio https://raw.githubusercontent.com/PacktPublishing/Bioinformatics-with-Python-Cookbook-third-edition/main/docker/main/Dockerfile
+sudo docker run -ti -p 9875:9875 -v .:/data bio
